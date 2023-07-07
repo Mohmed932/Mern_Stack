@@ -1,0 +1,13 @@
+.Navbar{
+    height: 10vh;
+    background-color: #421983;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.Navbar a{
+    color: #ff622d;
+    padding: 10px;
+    cursor: pointer;
+}

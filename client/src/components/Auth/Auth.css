@@ -1,0 +1,37 @@
+.main_authForm{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 10vh;
+}
+.authForm{
+    /* background-color: antiquewhite; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    width: 35%; 
+}
+.main_authForm .authForm .auth{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.main_authForm .authForm .auth label{
+    padding: 5px 0;
+}
+.main_authForm .authForm .auth input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(244, 233, 255);
+}
+.main_authForm .authForm .auth button{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff622d;
+}
